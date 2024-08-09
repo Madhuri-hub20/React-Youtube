@@ -1,0 +1,9 @@
+How to Start a New React Project : 
+
+Step 1 : https://vitejs.dev/guide/
+Step 2 : npm create vite@latest
+Step 3 : Need to enter project name (01_ReactApp)
+Step 4 : After that we have lit of optios need to select React
+Step 5 : After that we have list of option need to select JavaScript
+Step 6 : need to go our direct means project name (cd 01_ReactApp)
+Step 7 : npm install
