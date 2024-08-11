@@ -1,5 +1,10 @@
 React Hooks 
 
-1 : useState
-2 : useCallback
-3 : useEffect
+1 : useState : Update value on UI or HTML
+2 : useCallback : Optimization
+3 : useEffect : For the change detection on dependencies
+4 : useRef : it hold the reference of HTML
+
+Custome Hook : 
+Custome is a simple function which need to write in javascript  or typescript
+File extension bettwe to give .js for javascript boz hooks should write in havascript
