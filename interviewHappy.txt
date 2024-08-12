@@ -1,0 +1,42 @@
+What is the role of React in Software development ? 
+Ans : 
+
+What is React : 
+- React is an open source javascript library
+- React is used for building user interface(UI)
+- React simplifies the creation of SPA(single page application) by using reusable component.
+
+What is SPA(single Page application)
+- A single page application is a web application that have only one single web page
+- Whenever user do some action on the website, then in response content is dynamically updated without refreshing or loading new page.
+
+What are the advantages of reacts?
+- Simple to build single page application(by using component)
+- React is cross-platform and open source(free to use) means we can biuld one platform and we can deploy another platform also
+- LightWeight and very fast(bocz it uses virtual dom)
+- Large community and ECO system means well documented and many orgnization using reacts and many resources woring react project.
+- Testing is easy means testing in react is very easy.
+
+What are the disadvantages of React?
+- React is not a good choice for very small application.
+eg : small website
+
+What are the difference between React and Angular?
+
+React  :
+- React is a javascript library
+- React uses a Virtual DOM which makes it faster
+- React is smaller in size and lightweight and therefore faster sometime
+- React depends on external libraries for many complex features, so developer has to write many lines of code for complex functionlity
+- React is simple to learn and more popular than Angular
+
+Angular : 
+- Angular is complex framework
+- Angular used real DOM
+- Angular is bigger because it is complete framework
+- Since Angular is a complete framework, therefor it provide built-in support for features like routing, from,validation and HTTP reuests
+- Angular is slightly difficult to learn as it has Typescript, OOPs concept and many more things.
+
+What is DOM?
+-The DOM(Document Object Model) represent the web page as a tree-like structure which allows javascript to dynamically access and manipulate the content and structure of a web page.
+
