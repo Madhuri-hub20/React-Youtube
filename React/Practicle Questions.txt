@@ -70,3 +70,6 @@ for(let i= 6; i >=0 ;i --){
 console.log(fname)
    }
 
+Write a code to print length of string
+  let name= "Madhuri";
+  console.log(name.length)
