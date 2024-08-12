@@ -1,0 +1,31 @@
+JavaScript 
+
+What is hoisting? and can we use for all variable?
+What is diference between let and var?
+What is the event loop?
+what is the first preference of promise or setTimeOut? 
+What is difference between setTimeOut and setInterval?
+What are the ES6 fatures?
+What is the rest and spread operator?
+What are closures?
+What is purpose of map and reduce?
+What is difference between promise and callBack?
+What is the position attribute you used? means absolute, relative, static like
+What is selectBox?
+What is difference between display:none and visibility:hidden
+
+React : 
+
+What are the hooks you used ?
+What are the Class Base lifecyle method in react? What exactly call first?
+What is the purpose of pure component?
+What are higher order component?
+
+
+Redux : 
+
+What is the Context API?
+How redux work?
+
+
+
