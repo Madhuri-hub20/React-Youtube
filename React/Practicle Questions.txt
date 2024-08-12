@@ -19,6 +19,54 @@ for (3 > 2 > 1): 3 > 2 it is true value is 1 then we check 1 > 1 it gives false
 
 write the code in html take one header tag and it inner html is hello world, now take one array in that array take 4 strings 
 so when you click on h1 tag so change innerhtml to 1 elements of array and when you click 2 time then it should show 2 element of array so on.?
-And when you reached to last elemt of array when you click again show first element of array.
+And when you reached to last elemt of array when you click again show first element of array.(html file)
 
-Ans : 
+Ans : <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1  onclick="changeText()" id="hello">Hello World!</h1>
+    <script>
+        const arr=["Bhushan", "Madhuri", "Wagh", "Navale"];
+const selectValue = document.getElementById("hello")
+console.log(selectValue);
+
+let index=0;
+const changeText=() => {
+    if(index > arr.length-1){
+        index = 0;
+    }
+    selectValue.innerHTML=arr[index];
+    index ++;
+};
+       
+    </script>
+</body>
+</html>
+
+Write a code to print string one by one letter(.js file) 
+
+let name= "Madhuri";
+
+for (let i=0; i <name.length; i++ ){
+    console.log(name.charAt(i))
+}
+
+Write a code to print reverse string (.js file)
+let name= "Madhuri";
+for(let i= 6; i >=0 ;i --){
+    console.log(name.charAt(i))
+}
+
+Write a code to print reverse string like i ir iru iruh
+let name= "Madhuri";
+let fname = "";
+for(let i= 6; i >=0 ;i --){
+       fname=fname+name.charAt(i);
+console.log(fname)
+   }
+
