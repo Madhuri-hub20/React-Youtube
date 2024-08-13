@@ -40,3 +40,186 @@ Angular :
 What is DOM?
 -The DOM(Document Object Model) represent the web page as a tree-like structure which allows javascript to dynamically access and manipulate the content and structure of a web page.
 
+What is the difference betwween DOM and Virtual DOM?
+Virtual DOM : 
+                -Real DOM is the actual structure of the webpage.
+                -React Update complete document in the Real DOM.
+                -React uses a Virtual DOM to efficiently update the UI without re-render the entire page, which  help improve performance and make the application more responsive.
+DOM : 
+        -Virtual DOM is the virtual representation of Real DOM.
+        -React update the state changes in Virtual DOM first and then it syncs with Real DOM
+        -React DOM is the actual webpage rendered on the browser any changes made directly reflect on the complete webpage.
+
+What are React component?
+- In React, component is a reusable building block for creating user interface.
+eg. In web page there is so many section we can say like building blocks of this web page like header, menu items ,body ,footer so on .
+In react we are creating seperate component for seperate section and this component can be reused aywhere in the website. 
+
+What is NPM? What is the role of node_modules folder?
+- NPM(Node Package Manager) : NPM is online repository from where we can get thouusand of free libraries which can be used in our react projects.
+- Node_Modules : This folder contains all the dependencies of the project, including the react libraries.
+
+What is the role of public folder in React?
+- Public folder contains static assests that are served directly to the user's browser, such as images, fonts and index.html file
+
+What are the role of src folder in react?
+- It is used to store all the source code of the application.
+
+What is the role of index.html page in react?
+- Index.html file in a React project is the entry point to the application.
+
+What is the role of app.js page in react?
+- App.js is the root level component in react application, and it is responsible for rendering all of the other component.
+
+What is the role of funtion and return inside App.js?
+- Function is a javascript function that returns a React elements.
+eg. function Product(a, b) {
+    // Return the product of a and b
+    return a * b;
+};
+console.log(Product(2, 2));
+
+Can we have a function without return inside App.js?
+- JavaScript function without a return statement: In JavaScript, using a return statement inside a function is not mandatory
+eg. function App(){
+    console.log("clicked")
+}
+export default App;
+
+What is the role of export default inside App.js?
+- It is used to make this App component available for import using :import staement in other files.
+
+What is the ReactDOM?
+- React DOM is a javascript library which convert your components to atual browser DOM.
+
+What is JSX?
+- JSX(JavaScript XML) is a syntaxt extension used by React to write HTML-like code.
+
+What are the advantages of JSX?
+Combining Markup & Logic: JSX enables developers to incorporate JavaScript logic and HTML markup in a single file, simplifying the codebase's understanding and maintenance.
+Improved TypeScript Integration: JSX and TypeScript work together seamlessly to offer better type-checking and a better development environment.
+Enhanced Security: JSX automatically eludes dynamic material to protect users from common security flaws like cross-site scripting (XSS) assaults.
+
+What is the  Babel's ?
+- Babel in React, it is Use to translate JSX syntaxt into standard JavaScript which broser can understand.
+
+What is transpiler?
+- Transpiler is a tool that converts cource code from one programming language to another.
+
+Difference between Compiler and Transpiler?
+Compiler : 
+    - It converts a source code written in a high-level language to an output code in a low-level language.
+    - The source code has a higher level of abstraction than the output code. 
+    - Converting Java code into assembly language instructions is an example of compilation. 
+    
+Transpiler :
+    - It converts a source code written in a high-level language to an output code in a different high-level language.
+    - The source code, as well as the output code generated, are of the same level of abstraction. 
+    - Converting Java code into C++ code is an example of transpilation.
+
+It is possible to use JSX without React?
+- Yes, It's possible to use JSX witjout React by creating your own transpiler like Babel.
+- However, this is not recommended since JSX is tightly intergrated with react and relies on many React-specific features.
+
+What is the role of fragment in React?
+- In react, a fragment is a way to group a list of children without adding extra nodes to the DOM
+eg. function App(){
+    retur (
+    <>
+    <div>Hello</div>
+    <div>India</div>
+    </>
+    );
+}
+
+How do you iterate over a list in JSX? What is map() method?
+- map() methods allows you to iterate over an array and modify its element using a callback function
+eg. 
+const arr = [1,2,3,4,5];
+const arr2 = arr.map((num) => {
+    num = num * 2;
+    return num;
+})
+console.log(arr2);
+output : 2 4 6 8 10
+
+What are props in JSX?
+- Props(properties) are a way to pass data from a parent omponent to a child component.
+eg parent component : 
+
+function App(){
+    return(
+        <>
+        <ChildrenComponent fname="Happy" lname="World" />
+        </>
+    )
+}
+
+children component : 
+function ChildrenComponent(props){
+    return(
+        <>
+        <div> 
+        {props.fname}, {props.lname};
+        </div?
+        </>
+    )
+}
+output : Happy World
+
+What is Spread operator ? 
+- The spread operator(...) is used to expand or spread an array or Object
+
+eg parent component : 
+
+function App(){
+    const props = {fname="Happy" lname="World"};
+    return(
+        <>
+        <ChildrenComponent  {...props} />
+        </>
+    )
+}
+
+children component : 
+function ChildrenComponent(props){
+    return(
+        <>
+        <div> 
+        {props.fname}, {props.lname};
+        </div?
+        </>
+    )
+}
+output : Happy World
+
+What are the types of conditional rendering in JSX?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
