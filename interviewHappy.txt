@@ -1,5 +1,5 @@
 What is the role of React in Software development ? 
-Ans : 
+Ans : allows software developers like to build high-quality user interfaces for web apps.
 
 What is React : 
 - React is an open source javascript library
