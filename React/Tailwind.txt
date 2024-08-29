@@ -1,0 +1,94 @@
+1) What is Tailwind CSS?
+Tailwind CSS is a utility-first CSS framework that provides a set of highly customizable, low-level utility classes to build modern and responsive user interfaces.
+
+
+2) How do you install Tailwind CSS in a project?
+We can install Tailwind CSS using a package manager like npm or yarn. Run the following command:
+
+npm install tailwindcss
+
+3) What is the purpose of utility-first CSS?
+Utility-first CSS promotes building components by composing utility classes directly in the HTML, allowing for rapid development and easier maintenance.
+
+4) How do you enable JIT (Just-In-Time) mode in Tailwind CSS?
+In your tailwind.config.js, set the mode option to 'jit'.
+
+5) Explain the concept of responsive design in Tailwind CSS.
+Tailwind CSS provides responsive utility classes that allow you to control the appearance of elements on different screen sizes.
+
+Download Free : Tailwind CSS Interview Questions PDF
+6) What are the key benefits of using Tailwind CSS?
+Tailwind CSS offers a faster development process, consistent styling, flexibility, and reduced custom CSS code.
+
+7) How can you customize the default color palette in Tailwind CSS?
+Modify the theme section of your tailwind.config.js to define new color values.
+
+8) How do you group CSS classes in Tailwind?
+Use the @apply directive to apply a set of utility classes as a single class.
+
+9) Explain the difference between @apply and @screen directives.
+@apply is used to apply existing utility classes, while @screen is used to define responsive styles based on screen sizes.
+
+10) How can you enable dark mode in Tailwind CSS?
+Add a dark variant to your utility classes and customize dark mode styles in your configuration.
+
+11) What is the purpose of the group utility in Tailwind CSS?
+The group utility targets child elements based on a parent class, allowing you to apply styles when hovering or focusing on the parent element.
+
+12) How do you enable the hover, focus, or other variants for utility classes?
+Use the variants section in your tailwind.config.js to enable or disable variants like hover and focus
+
+13) What is the purpose of the purge option in the Tailwind CSS configuration?
+The purge option is used to remove unused CSS classes, reducing the file size of your stylesheets.
+
+14) How can you create a custom utility class in Tailwind CSS?
+Define your custom utility class in the extended section of the tailwind.config.js.
+
+15) Explain the concept of a "container" in Tailwind CSS.
+A container is a utility class that helps center and limit the width of content on larger screens.
+
+16) How can you add third-party plugins to Tailwind CSS?
+Install the plugin using a package manager and add it to the plugins section in your
+
+tailwind.config.js
+17) Describe the purpose of the order utility in Tailwind CSS.
+The order utility adjusts the order of flex or grid items without changing their source order in the HTML.
+
+18) How do you apply a custom font using Tailwind CSS?
+Define the font in the fontFamily section of the tailwind.config.js and use the font-{name} utility class.
+
+19) Explain the difference between margin and padding utilities in Tailwind CSS.
+Margin utilities control spacing outside an element, while padding utilities control spacing inside an element.
+
+20) How to enable RTL (Right-to-Left) support in Tailwind CSS?
+Set the mode option to 'rtl' in your tailwind.config.js.
+
+21) What is the purpose of the prose utility in Tailwind CSS?
+The prose utility provides styles for creating content-rich pages with consistent typography and spacing.
+
+22) How to vertically center an element using Tailwind CSS?
+Use the flex and items-center utilities to vertically center an element within its container.
+
+23) What is the purpose of the aspect-ratio utility in Tailwind CSS?
+The aspect-ratio utility maintains a specific aspect ratio for elements, such as videos or images.
+
+24) How to apply responsive padding or margin in Tailwind CSS?
+Use the space-{size} utilities along with responsive variants like sm, md, etc.
+
+25) What are JIT (Just-In-Time) and AOT (Ahead-Of-Time) compilation in the context of Tailwind CSS?
+JIT compilation compiles Tailwind CSS on-demand, reducing the final CSS size, while AOT compilation generates the entire stylesheet in advance.
+
+26) What is the purpose of the not-sr-only class in Tailwind CSS?
+The not-sr-only class ensures that an element is visible to all users, not just screen readers.
+
+27) How to apply responsive text sizes using Tailwind CSS?
+Use classes like text-{size} along with responsive variants to adjust text sizes for different screen sizes.
+
+28) Describe the purpose of the list utility classes in Tailwind CSS.
+The list utility classes style list items and lists, providing options for bullet points, numbers, and more.
+
+29) How to vertically align text within a container using Tailwind CSS?
+Use the flex and justify-center utilities to vertically center text within a container.
+
+30) Explain the use of the divide utility class in Tailwind CSS.
+The divide utility adds dividing lines between elements, such as list items, using classes like divide-y or divide-x.
